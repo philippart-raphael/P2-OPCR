@@ -1,0 +1,14 @@
+@import "./src/reboot.css";
+@import "./src/variables.css";
+@import "./src/header.css";
+@import "./src/search.css";
+
+body {
+    background: white;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main {
+    padding: 0 20px;
+}
