@@ -2,10 +2,17 @@
     width: 100%;
 }
 
+.search form {
+    display: flex;
+    height: 45px;
+    width: 30%;
+    flex-basis: 30%;
+}
+
 .search label {
     position: relative;
     height: 100%;
-    width: 10%;
+    width: 60px;
     background: var(--background-content);
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -18,18 +25,12 @@
     transform: translate(-50%, -50%);
 }
 
-.search form {
-    display: flex;
-    height: 45px;
-    width: 45%;
-}
-
 .search form input {
     border-top: 1px solid var(--background-content);
     border-bottom: 1px solid var(--background-content);
     border-left: 0;
     border-right: 0;
-    width: 60%;
+    width: 100%;
     padding: 5px 15px;
     font-size: 1.5rem;
     line-height: 1.5rem;
@@ -41,26 +42,72 @@
     border: 0;
     padding: 5px 20px;
     width: 30%;
+    flex-basis: 30%;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     font-size: 1.2rem;
     line-height: 1.2rem;
 }
 
+.search form button span {
+    display: block;
+}
+
+.search form button i {
+    display: none;
+}
+
 .search form button:hover {
     cursor: pointer;
 }
 
+/* MD Desktop */
+@media screen and (max-width: 1250px) {
+    .search form {
+        width: 35%;
+        flex-basis: 35%;
+    }
+    .search form button {
+        padding: 5px 10px;
+    }
+}
+
+/* Tablette */
+@media screen and (max-width: 992px) {
+    .search form {
+        width: 45%;
+        flex-basis: 45%;
+    }
+    .search form button {
+        margin-left: -15px;
+    }
+    .search form button span {
+        display: none;
+    }
+    .search form button i {
+        display: block;
+    }
+}
+
+/* Smartphone */
 @media screen and (max-width: 768px) {
+    .search {
+        padding: 0 20px;
+    }
     .search form {
         width: 100%;
         flex-basis: 100%;
     }
-    .search form input {
-
-    }
     .search form button {
+        width: 20%;
+        flex-basis: 20%;
         border-radius: 15px;
         margin-left: -15px;
-     }
+    }
+    .search form button span {
+        display: none;
+    }
+    .search form button i {
+        display: block;
+    }
 }

@@ -2,6 +2,7 @@
 @import "./src/variables.css";
 @import "./src/header.css";
 @import "./src/search.css";
+@import "./src/layout.css";
 
 body {
     background: white;
@@ -11,4 +12,18 @@ body {
 
 .main {
     padding: 0 20px;
+}
+
+/* Tablette */
+@media screen and (max-width: 992px) {
+    .main {
+        padding: 0 10px;
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 768px) {
+    .main {
+        padding: 0;
+    }
 }
