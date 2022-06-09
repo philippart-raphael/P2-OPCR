@@ -1,0 +1,78 @@
+.filter {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.filter ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.filter ul li {
+    margin: 0 10px;
+}
+
+.filter-btn {
+    position: relative;
+    display: flex;
+    z-index: 98;
+    align-items: center;
+    height: 45px;
+    border-radius: 25px;
+    border: var(--background-content) solid 2px;
+    background: transparent;
+    transition: background-color 500ms ease-in-out;
+}
+
+.filter-btn:hover {
+    cursor: pointer;
+    background: var(--secondary-color);
+    transition: background-color 500ms ease-in-out;
+}
+
+.filter-btn-icon {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    z-index: 99;
+    background: var(--secondary-color);
+}
+
+.filter-btn-icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--primary-color);
+}
+
+.filter-btn-body a {
+    margin: 0 10px 0 55px;
+    color: #000;
+}
+
+.filter-btn-body::first-letter {
+    text-transform: uppercase;
+}
+
+/* Smartphone */
+@media screen and (max-width: 768px) {
+    .filter,
+    .filter ul {
+        flex-basis: 100%;
+        flex-wrap: wrap;
+    }
+    .filter ul li {
+        margin: 0 10px 10px 0;
+    }
+    .filter > p {
+        flex-basis: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}

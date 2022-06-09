@@ -3,10 +3,13 @@
 @import "./src/header.css";
 @import "./src/search.css";
 @import "./src/layout.css";
+@import "./src/filter.css";
+@import "./src/keyframes.css";
 
 body {
     background: white;
-    font-size: 16px;
+    font-size: 14px;
+    color: #000;
     font-family: 'Raleway', sans-serif;
 }
 
