@@ -60,6 +60,28 @@
     text-transform: uppercase;
 }
 
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info div {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: var(--background-content) solid 2px;
+    margin-right: 10px;
+}
+
+.info div i {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--primary-color);
+}
+
 /* Smartphone */
 @media screen and (max-width: 768px) {
     .filter,
