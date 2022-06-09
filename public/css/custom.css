@@ -4,7 +4,6 @@
 @import "./src/search.css";
 @import "./src/layout.css";
 @import "./src/filter.css";
-@import "./src/keyframes.css";
 
 body {
     background: white;
