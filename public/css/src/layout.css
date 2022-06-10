@@ -26,6 +26,20 @@
     padding: 20px;
 }
 
+.pa-20 {
+    padding: 20px;
+}
+
 .float-right {
     float: right;
+}
+
+/* Tablette */
+@media screen and (max-width: 992px) {
+
+}
+
+/* Smartphone */
+@media screen and (max-width: 768px) {
+
 }

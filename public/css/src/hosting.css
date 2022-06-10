@@ -70,7 +70,7 @@
     background: #FFF;
     border-radius: 15px;
     padding: 3px;
-    margin: 10px 0;
+    margin: 15px 0;
     -webkit-box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.3);
     box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.3);
 }
@@ -80,8 +80,8 @@
 }
 
 .hosting-populaire > div > article > a > div:first-child {
-    height: 160px;
-    width: 160px;
+    height: 140px;
+    width: 140px;
 }
 
 .hosting-populaire > div > article > a > div:last-child {
@@ -89,15 +89,15 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
 }
 
-.hosting-populaire > div > article > a > div:last-child > p {
+/*.hosting-populaire > div > article > a > div:last-child > p {
     margin-top: -50px;
-}
+}*/
 
 .hosting-populaire > div > article > a > div > img {
-    width: 160px;
+    width: 140px;
     height: 100%;
     object-fit: cover;
     border-radius: 15px 0 0 15px;
@@ -135,10 +135,6 @@
         order: -1;
         flex-basis: 100%;
     }
-    .hosting-populaire > div > article > a > div:first-child {
-        height: 170px;
-        width: 170px;
-    }
     .bg-result {
          background: transparent;
     }
@@ -159,6 +155,6 @@
         flex-basis: 100%;
     }
     .hosting-result > div > article > a > div > img {
-        height: 170px;
+        height: 140px;
     }
 }

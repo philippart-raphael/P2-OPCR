@@ -5,6 +5,7 @@
 @import "./src/layout.css";
 @import "./src/filter.css";
 @import "./src/hosting.css";
+@import "./src/activity.css";
 
 body {
     background: white;
