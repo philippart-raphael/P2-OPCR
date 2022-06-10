@@ -6,6 +6,7 @@
 @import "./src/filter.css";
 @import "./src/hosting.css";
 @import "./src/activity.css";
+@import "./src/footer.css";
 
 body {
     background: white;
