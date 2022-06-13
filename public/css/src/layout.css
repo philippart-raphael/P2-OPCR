@@ -27,19 +27,23 @@
 }
 
 .pa-20 {
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .float-right {
     float: right;
 }
 
-/* Tablette */
-@media screen and (max-width: 992px) {
-
+.main {
+    padding: 0 20px;
 }
 
-/* Smartphone */
-@media screen and (max-width: 768px) {
-
+/* Tablette */
+@media screen and (max-width: 992px) {
+    .main {
+        padding: 0;
+    }
+    .pa-20 {
+        padding: 20px;
+    }
 }

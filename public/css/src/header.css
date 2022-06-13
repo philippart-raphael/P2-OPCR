@@ -49,9 +49,9 @@
         height: 150px;
     }
     .header nav ul li,
-     .header nav ul li a {
-         padding: 20px 10px;
-     }
+    .header nav ul li a {
+        padding: 20px 10px;
+    }
     .header nav,
     .header div {
         flex-basis: 100%;

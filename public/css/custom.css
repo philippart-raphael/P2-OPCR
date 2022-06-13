@@ -15,28 +15,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.main {
-    padding: 0 20px;
-}
-
 .h1 {
     font-size: 1.6rem;
 }
 
 .bold {
     font-weight: bold;
-}
-
-/* Tablette */
-@media screen and (max-width: 992px) {
-    .main {
-        padding: 0 10px;
-    }
-}
-
-/* Smartphone */
-@media screen and (max-width: 768px) {
-    .main {
-        padding: 0;
-    }
 }
