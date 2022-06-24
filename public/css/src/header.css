@@ -45,7 +45,7 @@
     width: 100px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .header {
         justify-content: center;
         text-align: center;

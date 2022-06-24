@@ -67,7 +67,7 @@
 }
 
 /* Tablette */
-@media only screen and (min-width: 769px) and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
     .activity {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 12rem 12rem 12rem;
@@ -104,7 +104,7 @@
 }
 
 /* Smartphone */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .activity {
         grid-template-rows: auto repeat(6, 14rem);
         row-gap: 1rem;

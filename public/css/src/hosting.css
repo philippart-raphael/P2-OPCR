@@ -120,7 +120,7 @@
 }
 
 /* Tablette */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .hosting {
         flex-wrap: wrap;
     }
@@ -140,7 +140,7 @@
 }
 
 /* Smartphone */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .bg-result{
         background: transparent;
     }
