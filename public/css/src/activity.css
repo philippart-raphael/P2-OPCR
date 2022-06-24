@@ -106,7 +106,7 @@
 /* Smartphone */
 @media screen and (max-width: 767px) {
     .activity {
-        grid-template-rows: auto repeat(6, 14rem);
+        grid-template-rows: auto repeat(6, 10rem);
         row-gap: 1rem;
     }
     .activity h2 {
