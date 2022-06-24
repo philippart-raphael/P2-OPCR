@@ -33,6 +33,7 @@
 @media screen and (max-width: 767px) {
     .footer {
         flex-wrap: wrap;
+        padding: 15px 0;
     }
     .footer > div {
         padding: 10px 20px;
