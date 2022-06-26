@@ -119,6 +119,12 @@
     }
 }
 
+@media screen and (min-width: 992px) and (max-width: 1036px){
+    .hosting-populaire > div > article > a > div:last-child {
+        padding: 8px;
+    }
+}
+
 /* Tablette */
 @media screen and (max-width: 991px) {
     .hosting {
